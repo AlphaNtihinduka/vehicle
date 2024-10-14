@@ -8,7 +8,7 @@ public abstract class Vehicle {
     }
 
     public void showVehicleDetails() {
-        System.out.println("Car type: "+ type+ ", Number of wheels: "+numberOfWheels);
+        System.out.println("Vehicle type: "+ type+ ", Number of wheels: "+numberOfWheels);
     }
 
     abstract void doVehicleSound();
