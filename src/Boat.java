@@ -14,7 +14,7 @@ public class Boat extends Vehicle{
     }
 
     public String getBoatWeightAndSpeed() {
-        return "Max knot speed: "+maxKnotsSpeed+"Boat weight: "+boatKilosWeight;
+        return "Max knot speed: "+maxKnotsSpeed+", Boat weight: "+boatKilosWeight;
     }
 }
 

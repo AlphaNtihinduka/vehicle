@@ -11,7 +11,7 @@ public class Car extends Vehicle{
     public void showVehicleDetails() {
         super.showVehicleDetails();
         System.out.println("Number of doors: "+numberOfDoors+
-                            "Price of car"+carPrice);
+                            ", Price of car: "+carPrice);
     }
 
     @Override
